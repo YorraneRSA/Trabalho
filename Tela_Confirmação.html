@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" text="text/css" href="Style.css" />
+    <script type="text/javascript" href="Script.js"></script>
+    <title>Modo De Pagamento</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+        <h1>PopCine</h1>
+        </div>
+        <nav class="menu">
+            <a href="Index.html">
+            <button class="botão">Página Inicial</button></a>
+            <a href="Tabela_Preços.html">
+            <button class="botão">Tabela De Preços</button></a>
+            <a href="Sobre.html">
+            <button class="botão">Sobre</button></a>
+        </nav>
+    </header>
+    <main class="corpo">
+        <div id="título">
+            <h1>Pagamento</h1>
+        </div>
+        <div id="organizar_total">
+        <div>
+            <br><br>
+            <ul><h2>Cartão de Crédito</h2></ul>
+            <ul>
+                <select id="option" name="Cartão">
+                    <option value="Nenhum">----------------------</option>
+                    <option value="Mastercard">Mastercard</option>
+                    <option value="Elo">Elo</option>
+                    <option value="Visa">Visa</option>
+                    <option value="American_E">American Express</option>
+                    <option value="Hipercard">Hipercard</option>
+                </select>
+            </ul>
+        </div>
+        <div>
+            <br><br>
+            <ul><h2>Cartão de Débito</h2></ul>
+            <ul>
+                <select id="option" name="Cartão">
+                    <option value="Nenhum">----------------------</option>
+                    <option value="Bradesco">Bradesco</option>
+                    <option value="Wise">Wise</option>
+                    <option value="Banco do Brasil">Banco do Brasil</option>
+                    <option value="Itaú">Itaú</option>
+                    <option value="Nubank">Nubank</option>
+                </select>
+            </ul>
+        </div>
+    </div>
+    <p id="cinza">NOTA: Favor escolher <strong>uma</strong> das formas de pagamento, caso escolha ambas ou nenhuma,<strong id="brighter"> nós iremos desconsiderar.</strong></p>
+        <style>
+            #cinza{
+                color:rgba(0, 0, 0, 0.527);
+            }
+            #brighter{
+                color:rgba(255, 0, 0, 0.425);
+            }
+        </style>
+    <br><br><br>
+            <a href="Início.html">
+             <input type="button" value ="Confirmar" onclick="check()" class="botão_sobre"></a>
+         <script>
+             function check(){
+                 alert("Compra Bem Sucedida!")
+             }
+         </script>
+    </main>
+    <footer class="rodapé">
+        <div class="descrição">
+            <ul><strong>Entre em contato com a gente!</strong></ul>
+            <ul>
+                <a href="https://www.instagram.com" ><img class="icon" src="instagram.png"> Instagram</a></ul>
+            <ul>
+                <a href="https://twitter.com "><img class="icon" src="twitter.png"> Twitter</a></ul>
+            <ul>
+                <a href="https://www.facebook.com/" ><img class="icon" src="facebook.png"> Facebook</a></ul>
+            <ul><strong>PopCine</strong></ul>
+            <ul>+55 31 9 2567 8008</ul>
+            <ul>+55 31 9 3572 8008</ul>
+            <ul>+55 31 9 1822 8008</ul>
+        </div>
+            <p>Todos os direitos reservados a PopCine Copyright 2018-2023</p>
+        </footer>
+</body>
+</html>

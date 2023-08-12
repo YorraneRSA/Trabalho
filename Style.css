@@ -1,0 +1,340 @@
+
+/*Cores a serem usadas
+#F2F2F2 ou #F8F8FF
+#F2B05E
+#F2CA99
+#BF4226
+#ad2a2a
+#A62626
+#ad1b1b
+#911616
+*/
+
+#html
+{   
+    background-color: #F2F2F2;
+    margin-right: 300px;
+    margin-left: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+a
+{
+    cursor:pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 131);
+}
+a:hover
+{
+    cursor:pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 211);
+}
+a:visited
+{
+    cursor:pointer;
+    text-decoration: none;
+    color: rgb(66, 0, 189);
+}
+a:active
+{
+    cursor:pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+}
+.container
+{
+    text-align: center;
+    font-family: "bauhaus 93";
+    padding-left: 50px;
+    background-image: url(popcorn.jpg);
+    background-size: 50px;
+    background-position: center;
+    background-color: #1C1C1C;
+    color: #F8F8FF;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: center;
+    background-color: #ad1b1b;
+}
+
+/* Propriedades dos Botões*/
+
+.botão
+{
+    cursor:pointer;
+    border-color: #ad1b1b;
+    background-color: #ad1b1b;
+    color: #F8F8FF;
+    font-size: 15px;
+    height: 50px;
+    width: 100px;
+}
+
+.botão:hover
+{
+    background-color: #911616;
+}
+
+.botão:active
+{
+    background-color: #ad2a2a;
+}
+
+.botão_sobre
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2) ;
+    border-color: #ad1b1b;
+    background-color: #ad1b1b;
+    color: #F8F8FF;
+    font-size: 25px;
+    width: 120px;
+    height: 80px;
+    border-radius: 25px;    
+    margin-left: 500px;
+}
+
+.botão_sobre:hover
+{
+    cursor:pointer;
+    background-color: #911616;
+}
+
+.botão_sobre:active
+{
+    background-color: #ad2a2a;
+}
+
+.corpo_inicio{
+    
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.corpo
+{
+    padding-top: 70px;
+}
+
+.Preços > div
+{
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-color:#9e464685;
+    background-color: #ff8c008a;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    width: 350px;
+    font-size: 20px;
+}
+
+.Preços_cliente
+{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.cronograma
+{
+    display: inline-block;
+}
+#comum
+{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: 	#C0C0C0;
+    border-style: solid;
+    border-color:	#a09e9e;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#vip
+{
+    width: 400px;
+    text-align: center;
+    border-radius: 25px;
+    background-color:	#40e0d07c ;
+    border-style: solid;
+    border-color:	#36b9ac;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.color
+{
+    color: red;
+}
+#extras{
+    display: inline-flex;
+    text-align: center;
+}
+
+#título
+{
+    padding-left: 70px;
+    padding-right: 90px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.cronograma
+{
+    padding-right: 90px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+.legenda
+{
+    padding-left: 10px;
+    padding-right: 350px;
+    font-size: 25px;
+}
+.container_2
+{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 50px;   
+}
+#subtítulo{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+#img {
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+#img:hover{
+    opacity: 0.8;
+}
+#img_2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+#are{
+    background-color:#36b9ac;
+    width: 150px;
+    height: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #299288;
+}
+#arent{
+    background-color:#fc6464;
+    width: 150px;
+    height: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ad2a2a;
+}
+#pretty{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-right: 950px;
+    text-align: center;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.acentos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+.acentos > div {
+    height:40px;
+    width: 40px;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+.Disponível{
+    background-color: #36b9ac;
+  }
+.Indisponível{
+    background-color:#fc6464;
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+    
+}
+#Todo > div{
+    display: inline-block;
+}
+#organizar_total{
+    display: flex;
+    background-color: #1C1C1C;
+    color:#F2F2F2;
+    border-radius: 15px;
+    align-content: center;
+    padding-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+#option{
+    border-radius: 10px;
+    font-size: 15px;
+}
+#option:hover{
+    background-color: #d1d1d1;
+}
+#option:active{
+    background-color: #a09e9e;
+}
+#fontsize{
+    font-size: 20px;
+}
+.rodapé
+{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F2CA99;
+    font-size: 20px;
+}
+.descrição{
+    column-count: 2;
+}
+#ordenar{
+    display: inline-flex;
+    justify-content: center;
+}
+#negative{
+    cursor: not-allowed;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#text{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.icon
+{
+    width: 20px;
+    height: 20px;
+}
+
